@@ -87,4 +87,42 @@ console.log("x = ",x)
 
 console.log("x * 5n = ", x*5n)
 
-console.log(typeof x)
+console.log(typeof x )
+
+// concept of type conversion 
+
+let one_more = 123
+
+console.log(one_more , typeof one_more)
+let written = String(one_more)
+
+console.log(written , typeof written)
+written = Number(written)
+
+console.log(written , typeof written)
+one_more = Boolean(one_more)
+
+console.log(one_more ,typeof one_more)
+console.log(!one_more ,typeof one_more)
+console.log(!!one_more ,typeof one_more)
+
+
+//concept of type of coversion
+
+let test
+console.log(test, typeof test)
+
+test = 6
+console.log(test, typeof test)
+
+test = test + ""
+console.log(test, typeof test)
+
+test = test - 3
+console.log(test, typeof test)
+
+test = test + "abc"
+console.log(test, typeof test)
+
+test = test - 2
+console.log(test, typeof test)
