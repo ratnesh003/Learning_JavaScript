@@ -126,3 +126,85 @@ console.log(test, typeof test)
 
 test = test - 2
 console.log(test, typeof test)
+
+test = "1234 leave me"
+console.log(parseInt(test))
+
+test = "haha!1234 leave me"
+console.log(parseInt(test))
+
+// arithematic operations concepts
+
+let number1 = 4
+let number2 = 2
+
+let result = number1 + number2
+console.log(result)
+
+result = number1 - number2
+console.log(result)
+
+result = number1 * number2
+console.log(result)
+
+result = number1 / number2
+console.log(result)
+
+result = number1 ^ number2
+console.log(result)
+
+result = String(number1) + String(number2)
+console.log(result)
+
+result = Boolean(number1) + Boolean(number2)
+console.log("result = ",result)
+
+result += 5
+console.log("result += 5" ,result)
+
+result++
+console.log("result++",result)
+
+++result
+console.log("++result",result)
+
+result--
+console.log("result--",result)
+
+--result
+console.log("--result",result)
+
+// concept of relational operators 
+
+console.log(5>6)
+
+console.log(7>6)
+
+console.log(5>=5)
+
+console.log(7<=7)
+
+let str1 ="Pen"
+let str2 ="Book"
+
+data = str2 > str1
+
+console.log( data)
+str1 =  "3"
+str2 = 2
+data = str2 > str1
+console.log(data)
+
+str1 =  "3"
+str2 = 3
+data = str2 == str1
+console.log(data)
+
+data = str2 === str1
+console.log(data)
+
+// concept of logical operators 
+
+console.log(2>3 && 2>1)
+console.log(2>3 || 2>1)
+console.log(!(2>1))
