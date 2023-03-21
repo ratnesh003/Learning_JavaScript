@@ -1,31 +1,31 @@
 //concept of while loop in JavaScript
 
-// let i = 10;
-// console.log("1st loop starts");
+let i = 10;
+console.log("1st loop starts");
 
-// while (i--) {
-//     console.log(i,"Hi...");
-// }
+while (i--) {
+    console.log(i,"Hi...");
+}
 
-// console.log("2nd loop starts");
+console.log("2nd loop starts");
 
-// while (i<9 ) {
-//     console.log(i,"Hiiii");
-//     i++;
-// }
+while (i<9 ) {
+    console.log(i,"Hiiii");
+    i++;
+}
 
-// console.log("3rd loop starts");
+console.log("3rd loop starts");
 
-// while (i<5) {
-//     console.log(i,"Hello");
-//     i++;
-// }
+while (i<5) {
+    console.log(i,"Hello");
+    i++;
+}
 
-// console.log("4th loop starts");
+console.log("4th loop starts");
 
-// do {
-//     console.log(i,"Hey");
-// } while (i<5);
+do {
+    console.log(i,"Hey");
+} while (i<5);
 
 let x = 12334567890;
 
