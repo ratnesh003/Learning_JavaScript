@@ -27,3 +27,25 @@ let unknown = {
         cpu:'i5' 
     }
 }
+
+console.log(unknown?.laptop?.brand);
+
+console.log(unknown?.laptop?.model?.length)
+
+for(let key in unknown) {
+    console.log(key , unknown[key]);
+}
+
+for(let key1 in unknown.laptop) {
+    console.log(key1 , unknown.laptop[key1]);
+    delete unknown.laptop[key1];
+}
+
+console.log("I am going in");
+for(let key1 in unknown.laptop) {
+
+    console.log(key1 , unknown.laptop[key1] , 'I am Running');
+}
+console.log("I have exited ");
+
+console.log(unknown);
