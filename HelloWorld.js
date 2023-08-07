@@ -72,6 +72,14 @@ console.log(num3);
 
 
 console.log("\n-----------------\n");
+//The exponential way of writing number -----------------
+console.log("exponential way of writing number");
+
+let num31 = 1.2e14;
+console.log("1.2*10^14 = ",num31);
+
+
+console.log("\n-----------------\n");
 //special way of writing zeros -----------------
 console.log("special way of writing zeros");
 
@@ -117,6 +125,20 @@ console.log("x = ", x);
 console.log("x * 5n = ", x * 5n);
 
 console.log(typeof x);
+
+
+console.log("\n-----------------\n");
+// concept of strings -----------------
+console.log("concept of strings");
+
+let firstName = "Ratnesh"
+let lastName = "Pasi"
+
+console.log("concatenation = ",firstName +" "+ lastName)
+console.log("Escape character = \"\\\"")
+console.log("'singel quotes' and "+'"double quotes"')
+console.log("use of \\t \\n \\v \\b = 'ratnesh\t tara\vkant \npasif\b'")
+
 
 
 console.log("\n-----------------\n");
@@ -216,13 +238,13 @@ console.log("\n-----------------\n");
 // concept of relational operators -----------------
 console.log(" relational operators ");
 
-console.log(5 > 6);
+console.log("5 > 6 =",5 > 6);
 
-console.log(7 > 6);
+console.log("7 > 6 =",7 > 6);
 
-console.log(5 >= 5);
+console.log("5 >= 5 =",5 >= 5);
 
-console.log(7 <= 7);
+console.log("7 <= 7 =",7 <= 7);
 
 let str1 = "Pen";
 let str2 = "Book";
@@ -249,5 +271,5 @@ console.log("\n-----------------\n");
 console.log(" logical operators ");
 
 console.log("2 > 3 && 2 > 1 =",2 > 3 && 2 > 1);
-console.log("2 > 3 || 2 > 1",2 > 3 || 2 > 1);
-console.log(!(2 > 1));
+console.log("2 > 3 || 2 > 1 =",2 > 3 || 2 > 1);
+console.log("!(2 > 1) =",!(2 > 1));
