@@ -107,7 +107,7 @@ console.log("10 * c =", c);
 
 let d = Number.MIN_VALUE;
 
-console.log(" d =", d);
+console.log(" d =", d);  
 
 d = d / 10;
 
