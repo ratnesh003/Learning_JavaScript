@@ -39,10 +39,10 @@
 //   // [3] Some code here
   
 // Replace 'YOUR_UNSPLASH_ACCESS_KEY' with your actual Unsplash API access key
-const unsplashAccessKey = 'Vm0H8IQHYwk2Ba23ixUqJQEUUWAEqKYcNmEZHIv-J6I';
+// const unsplashAccessKey = 'Vm0H8IQHYwk2Ba23ixUqJQEUUWAEqKYcNmEZHIv-J6I';
 // Replace 'YOUR_UNSPLASH_ACCESS_KEY' with your actual Unsplash API access key
 // const unsplashAccessKey = 'YOUR_UNSPLASH_ACCESS_KEY';
-const numberOfImages = 5; // You can adjust this based on your requirements
+// const numberOfImages = 5; // You can adjust this based on your requirements
 
 // Function to fetch images from Unsplash
 async function fetchImages() {
